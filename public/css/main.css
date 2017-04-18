@@ -1,0 +1,110 @@
+body {
+	padding-top: 80px;
+	background-color: rgb(240, 240, 240);
+	font-family: 'Roboto',sans-serif;
+}
+
+.container h1:first-of-type
+{
+	margin-top: 0;
+}
+.page-header{
+	text-align: center;
+	margin-bottom: 1em;
+	padding-bottom: .5em;
+	border-bottom: solid #ddd 1px;
+}
+
+.nav-gravatar{
+    float: left;
+    position: relative;
+    top: -6px;
+    left: -10px;
+    border: solid rgb(238, 238, 238) 1px;
+}
+.status-media
+{
+	border: solid #e3e3e3 1px;
+	background: white;
+    border-bottom: none;
+	padding: 1em;
+}
+
+
+.status-post {
+    border: solid #3E3E3E 1px;
+    background: white;
+    margin-bottom: 3em;
+    padding: 0;
+}
+.status-post textarea{
+    border:none;
+}
+
+.status-post-submit
+{
+	border-top:  solid #e9e9e9 1px;
+	padding: .5em 1em;
+	margin-bottom: 0;
+	overflow: hidden;
+}
+
+.btn {float: right;}
+
+.btn-primary{
+	background: #00BAE9;
+
+}
+
+textarea
+{
+	border: none;
+	
+}
+
+
+.user-block{
+text-align:center;
+}
+
+.user-block .media-object{
+    margin:auto;
+}
+
+.avatar{
+	margin:auto;
+}
+.users
+{
+	margin-bottom: 3em;
+}
+.navbar-default {
+    background-color: #00BAE9;
+    border-color: #f3f3f3;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+.navbar-default .navbar-nav li  a {
+    color: #fff;
+}
+.my-dropdown{
+    background-color: #00BAE9;
+}
+.comments_create-form textarea{
+    border: solid #E3E3E3 1px;
+    border-top: none;
+    border-radius: 0;
+}
+.comment{
+    margin-bottom: 5em;
+}
+.comment__comment{
+    background-color: ghostwhite;
+    margin-top: 0;
+    border: solid #d3d3d3 1px;
+    border-bottom: solid #E3E3E3 1px;
+
+}

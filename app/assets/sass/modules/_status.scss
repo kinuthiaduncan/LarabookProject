@@ -1,0 +1,46 @@
+.status-media{
+  border: solid #E3E3E3 1px;
+  background: white;
+  padding: 1em;
+  margin-bottom: 2em;
+}
+.status-media-heading{
+  color: rgb(64,157,209);
+  position: relative;
+  top: 5px;
+}
+.status-media-body{
+  color: #B3BAC0;
+  font-size: 1.2em;
+  padding: .5em 1em 1em 1em;
+}
+.status-media-object{
+  position: relative;
+  top: 13px;
+}
+
+//status form
+
+.status-post{
+  border: solid #3E3E3E 1px;
+  background: white;
+  margin-bottom: 3em;
+  padding: 0;
+
+  textarea{
+    border:none;
+    &:focus{
+      box-shadow: none;
+    }
+  }
+  .status-post-submit{
+    border-top:solid #E9E9E9 1px;
+    padding: .5em 1em;
+  }
+}
+
+.comments_create-form textarea{
+ border: solid #E3E3E3 1px;
+  border-top: none;
+  border-radius: 0;
+}
